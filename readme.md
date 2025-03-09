@@ -34,18 +34,18 @@ This system leverages **machine learning (ML) and mathematical models** to:
 
 ### 1️⃣ **Diabetes Prediction Model**  
 The model is trained on biomarkers to classify **diabetes risk** using a logistic regression formula:  
-![alt text](image.png)
+![alt text](src/image.png)
 Where:  
 - \( X_1, X_2, ... X_n \) = Features (Glucose, HbA1c, GAD antibodies, etc.)  
-- \( \beta_0 \) = Intercept  
-- \( \beta_1, \beta_2, ... \beta_n \) = Coefficients  
+- \( b_0 ) = Intercept  
+- \( b_1, b_2, ... b_n \) = Coefficients  
 
 If \( P(Diabetes) > 0.5 \), the patient is **classified as diabetic**.  
 
 ### 2️⃣ **Insulin Recommendation Formula**  
 The insulin dosage is calculated using the **correction factor and carbohydrate ratio**:
+![alt text](src/image2.png)
 
-![alt text](image2.png)
 
 Where:  
 - **Target Glucose** = Ideal blood glucose level (e.g., 100 mg/dL)  
@@ -60,8 +60,8 @@ Example Calculation:
 - ICR = 10  
 
 Then:
-![alt text](image-1.png)
 
+![alt text](src/image-1.png)
 ---
 
 ## ✨ Features  
